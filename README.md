@@ -29,21 +29,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/CarterGrimmeisen/zod-prisma">
-    <img src="https://raw.githubusercontent.com/CarterGrimmeisen/zod-prisma/main/images/zod-prisma.svg" alt="Logo" width="120" height="120">
+  <a href="https://github.com/daotl/zod-prisma">
+    <img src="https://raw.githubusercontent.com/daotl/zod-prisma/main/images/zod-prisma.svg" alt="Logo" width="120" height="120">
   </a>
   <h3 align="center">Zod Prisma</h3>
   <p align="center">
     A custom prisma generator that creates Zod schemas from your Prisma model.
     <br />
-    <a href="https://github.com/CarterGrimmeisen/zod-prisma"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/daotl/zod-prisma"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/CarterGrimmeisen/zod-prisma/blob/main/src/test/functional">View Demo</a>
+    <a href="https://github.com/daotl/zod-prisma/blob/main/src/test/functional">View Demo</a>
     ·
-    <a href="https://github.com/CarterGrimmeisen/zod-prisma/issues">Report Bug</a>
+    <a href="https://github.com/daotl/zod-prisma/issues">Report Bug</a>
     ·
-    <a href="https://github.com/CarterGrimmeisen/zod-prisma/issues">Request Feature</a>
+    <a href="https://github.com/daotl/zod-prisma/issues">Request Feature</a>
   </p>
 </p>
 
@@ -270,13 +270,13 @@ you can set `prismaJsonNullability` to `false` in the generator options.
 
 <!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
-_For examples, please refer to the [Examples Directory](https://github.com/CarterGrimmeisen/zod-prisma/blob/main/examples) or the [Functional Tests](https://github.com/CarterGrimmeisen/zod-prisma/blob/main/src/test/functional)_
+_For examples, please refer to the [Examples Directory](https://github.com/daotl/zod-prisma/blob/main/examples) or the [Functional Tests](https://github.com/daotl/zod-prisma/blob/main/src/test/functional)_
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/CarterGrimmeisen/zod-prisma/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/daotl/zod-prisma/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -302,20 +302,20 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Carter Grimmeisen - Carter.Grimmeisen@uah.edu
 
-Project Link: [https://github.com/CarterGrimmeisen/zod-prisma](https://github.com/CarterGrimmeisen/zod-prisma)
+Project Link: [https://github.com/daotl/zod-prisma](https://github.com/daotl/zod-prisma)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [npm-shield]: https://img.shields.io/npm/v/zod-prisma?style=for-the-badge
 [npm-url]: https://www.npmjs.com/package/zod-prisma
-[contributors-shield]: https://img.shields.io/github/contributors/CarterGrimmeisen/zod-prisma.svg?style=for-the-badge
-[contributors-url]: https://github.com/CarterGrimmeisen/zod-prisma/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/CarterGrimmeisen/zod-prisma.svg?style=for-the-badge
-[forks-url]: https://github.com/CarterGrimmeisen/zod-prisma/network/members
-[stars-shield]: https://img.shields.io/github/stars/CarterGrimmeisen/zod-prisma.svg?style=for-the-badge
-[stars-url]: https://github.com/CarterGrimmeisen/zod-prisma/stargazers
-[issues-shield]: https://img.shields.io/github/issues/CarterGrimmeisen/zod-prisma.svg?style=for-the-badge
-[issues-url]: https://github.com/CarterGrimmeisen/zod-prisma/issues
-[license-shield]: https://img.shields.io/github/license/CarterGrimmeisen/zod-prisma.svg?style=for-the-badge
-[license-url]: https://github.com/CarterGrimmeisen/zod-prisma/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/daotl/zod-prisma.svg?style=for-the-badge
+[contributors-url]: https://github.com/daotl/zod-prisma/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/daotl/zod-prisma.svg?style=for-the-badge
+[forks-url]: https://github.com/daotl/zod-prisma/network/members
+[stars-shield]: https://img.shields.io/github/stars/daotl/zod-prisma.svg?style=for-the-badge
+[stars-url]: https://github.com/daotl/zod-prisma/stargazers
+[issues-shield]: https://img.shields.io/github/issues/daotl/zod-prisma.svg?style=for-the-badge
+[issues-url]: https://github.com/daotl/zod-prisma/issues
+[license-shield]: https://img.shields.io/github/license/daotl/zod-prisma.svg?style=for-the-badge
+[license-url]: https://github.com/daotl/zod-prisma/blob/main/LICENSE

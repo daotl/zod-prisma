@@ -1,16 +1,16 @@
 {
-	"name": "zod-prisma",
+	"name": "@daotl/zod-prisma",
 	"version": "0.5.4",
 	"description": "A Prisma generator that creates Zod schemas for all of your models",
 	"license": "MIT",
 	"author": "Carter Grimmeisen",
-	"homepage": "https://github.com/CarterGrimmeisen/zod-prisma#readme",
+	"homepage": "https://github.com/daotl/zod-prisma#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/CarterGrimmeisen/zod-prisma.git"
+		"url": "https://github.com/daotl/zod-prisma.git"
 	},
 	"bugs": {
-		"url": "https://github.com/CarterGrimmeisen/zod-prisma/issues"
+		"url": "https://github.com/daotl/zod-prisma/issues"
 	},
 	"main": "dist/index.js",
 	"module": "dist/zod-prisma.esm.js",
@@ -61,6 +61,8 @@
 		"@prisma/sdk": "~3.7.0",
 		"@tsconfig/recommended": "^1.0.1",
 		"@types/fs-extra": "^9.0.13",
+		"@types/jest": "^29.0.3",
+		"decimal.js": "^10.4.1",
 		"dts-cli": "^1.1.5",
 		"execa": "^5.1.0",
 		"fast-glob": "^3.2.5",
