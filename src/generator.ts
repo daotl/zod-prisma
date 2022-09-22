@@ -51,7 +51,7 @@ export const writeImportsForModel = (
 		importList.push({
 			kind: StructureKind.ImportDeclaration,
 			isTypeOnly: enumFields.length === 0,
-			moduleSpecifier: dotSlash('enums'),
+			moduleSpecifier: `./enums${jsExt(config)}`,
 			namedImports: enumFields.map((f) => f.type),
 		})
 	}
@@ -62,7 +62,7 @@ export const writeImportsForModel = (
 		if (filteredFields.length > 0) {
 			importList.push({
 				kind: StructureKind.ImportDeclaration,
-				moduleSpecifier: './index',
+				moduleSpecifier: `./index${jsExt(config)}`,
 				namedImports: Array.from(
 					new Set(
 						filteredFields.flatMap((f) => [
@@ -238,10 +238,10 @@ export const populateModelFile = (
 		generateRelatedSchemaForModel(model, sourceFile, config, prismaOptions)
 }
 
-export const generateBarrelFile = (models: DMMF.Model[], indexFile: SourceFile) => {
+export const generateBarrelFile = (models: DMMF.Model[], indexFile: SourceFile, config: Config) => {
 	models.forEach((model) =>
 		indexFile.addExportDeclaration({
-			moduleSpecifier: `./${model.name.toLowerCase()}`,
+			moduleSpecifier: `./${model.name.toLowerCase()}${jsExt(config)}`,
 		})
 	)
 }
@@ -259,3 +259,5 @@ export const generateEnumsFile = (enums: DMMF.DatamodelEnum[], enumsFile: Source
 			.setIsExported(true)
 	})
 }
+
+const jsExt = (config: Config) => (config.includeJSExtension ? '.js' : '')
