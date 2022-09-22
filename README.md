@@ -108,10 +108,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This project utilizes yarn and if you plan on contributing, you should too.
+This project utilizes pnpm and if you plan on contributing, you should too.
 
 ```sh
-npm install -g yarn
+npm install -g pnpm
 ```
 
 ### Installation
@@ -122,7 +122,7 @@ npm install -g yarn
 1.  Add zod-prisma as a dev dependency
 
     ```sh
-    yarn add -D zod-prisma
+    npm install -D zod-prisma
     ```
 
 2.  Add the zod-prisma generator to your schema.prisma
@@ -146,17 +146,13 @@ npm install -g yarn
 
       imports                  = null // (default) will import the referenced file in generated schemas to be used via imports.someExportedVariable
 
-      // https://devblogs.microsoft.com/typescript/announcing-typescript-4-7-beta/#ecmascript-module-support-in-node-js
-      includeJSExtension       = true // includes the .js extension on relative import/exports to comply with ESM in TS syntax requirements ()
-      // includeJSExtension    = false // (default) leaves relative import/exports extensionless
-
       // https://www.prisma.io/docs/concepts/components/prisma-client/working-with-fields/working-with-json-fields#filtering-by-null-values
       prismaJsonNullability    = true // (default) uses prisma's scheme for JSON field nullability
       // prismaJsonNullability = false // allows null assignment to optional JSON fields
     }
     ```
 
-3.  Run `npx prisma generate` or `yarn prisma generate` to generate your zod schemas
+3.  Run `npx prisma generate` to generate your zod schemas
 4.  Import the generated schemas form your selected output location
 
 <!-- USAGE EXAMPLES -->
